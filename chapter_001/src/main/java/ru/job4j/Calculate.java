@@ -4,7 +4,7 @@ package ru.job4j;
  * Calculate.
  *
  * @author Andrew Ermolaev (goodwin039@gmail.com)
- * @version $Id$
+ * @version $Id$ jkkk
  * @since 0.1
  */
 public class Calculate {
