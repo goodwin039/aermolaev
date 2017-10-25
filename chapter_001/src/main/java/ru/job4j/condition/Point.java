@@ -18,7 +18,7 @@ public class Point {
     }
 
     public boolean is(int a, int b) {
-        if(getY() == (a * getX() + b))	return true; // используя оператор if проверить что точка (x, y) принадлежит функции y(x) = a * x + b;
+        if(this.y == (a * this.x + b))	return true; // используя оператор if проверить что точка (x, y) принадлежит функции y(x) = a * x + b;
         else return false;
     }
 }
