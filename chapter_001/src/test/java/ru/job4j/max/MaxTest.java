@@ -18,4 +18,11 @@ public class MaxTest {
         int result = maxim.max(678, 2);
         assertThat(result, is(678));
     }
+
+    @Test
+    public void whenFirstMoreThanTwoOthers() {
+        Max max = new Max();
+        int res = max.max(3, 2, 0);
+        assertThat(res, is(3));
+    }
 }
