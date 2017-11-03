@@ -6,7 +6,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 import static org.hamcrest.number.IsCloseTo.closeTo;
 
-
 public class TriangleTest {
     /**
      * Тест проверяющий метод вычисления расстояния между точками
