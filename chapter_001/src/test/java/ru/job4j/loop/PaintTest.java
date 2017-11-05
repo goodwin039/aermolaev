@@ -20,6 +20,6 @@ public class PaintTest {
         String result = paint.piramid(3);
         String line = System.getProperty("line.separator");
         String expected = String.format("  ^%s ^^^%s^^^^^%s",line,line,line);
-        assertThat(expected, is(result));
+        assertThat(result, is(expected));
     }
 }
